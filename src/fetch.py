@@ -2,8 +2,8 @@ import os
 import requests
 
 def download_dataset(url, filename):
-    os.makedirs("data/raw", exist_ok=True)
-    file_path = os.path.join("data", "raw", filename)
+    os.makedirs("../data/raw", exist_ok=True)
+    file_path = os.path.join("../data/raw", filename)
 
     #  Skip download if already exists
     if os.path.exists(file_path):
@@ -22,8 +22,8 @@ def download_dataset(url, filename):
 
 def fetch_all_bike_data():
     datasets = {
-        "day.csv": "https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset/download?datasetVersionNumber=1",
-        "hour.csv": "https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset/download?datasetVersionNumber=1"
+        "day.csv": "https://raw.githubusercontent.com/danwild/bike-share-prediction/master/Bike-Sharing-Dataset/day.csv",
+        "hour.csv": "https://raw.githubusercontent.com/danwild/bike-share-prediction/master/Bike-Sharing-Dataset/hour.csv"
     }
 
     for filename, url in datasets.items():

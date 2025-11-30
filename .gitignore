@@ -1,5 +1,25 @@
+# OS / Editor files
 *.Rhistory
 .DS_Store
 
-data/raw/*.csv
-data/processed/*.csv
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Data folders (do NOT push datasets)
+data/raw/
+data/processed/
+
+# Kaggle / API keys (if any)
+*.json
+*.key
+

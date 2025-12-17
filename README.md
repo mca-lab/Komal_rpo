@@ -9,7 +9,8 @@ The workflow includes:
 3. Analysis and visualization
 4. Reproducible Docker-based setup for data collection and processing
 
-**research question ** How do weather conditions, seasonal changes, and time (hour/day) influence bike rental demand in the dataset?
+**research question**
+How do weather conditions, seasonal changes, and time (hour/day) influence bike rental demand in the dataset?
 
 ---
 
@@ -18,8 +19,8 @@ The workflow includes:
 ### Module 1. Data Collection & Ingestion
 **Objective:** Automate downloading datasets and storing them for processing.
 1.Fetched two datasets dynamically from GitHub URLs:
-a.day.csv
-b.hour.csv
+--day.csv
+--hour.csv
 2.Stored datasets in data/raw/
 3.Docker container ensures reproducible data fetching environment
 

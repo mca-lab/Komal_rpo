@@ -36,7 +36,7 @@ How do weather conditions, seasonal changes, and time (hour/day) influence bike 
 **Objective:** Prepare raw data for analysis using PySpark.
 
 **Tasks:**
--Loaded raw datasets into PySpark
+- Loaded raw datasets into PySpark
 - Handled missing values, inconsistent formats, and duplicates
 - Aggregated hourly dataset to daily counts for analysis
 - Merged day-level and hourly-level datasets for comprehensive insights

@@ -9,7 +9,7 @@ The workflow includes:
 3. Analysis and visualization
 4. Reproducible Docker-based setup for data collection and processing
 
-## research question##
+## research question 
 How do weather conditions, seasonal changes, and time (hour/day) influence bike rental demand in the dataset?
 
 ---

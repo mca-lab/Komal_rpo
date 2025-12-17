@@ -19,11 +19,11 @@ How do weather conditions, seasonal changes, and time (hour/day) influence bike 
 ### Module 1. Data Collection & Ingestion
 **Objective:** Automate downloading datasets and storing them for processing.
 
--Fetched two datasets dynamically from GitHub URLs:
- - day.csv
- - hour.csv
--Stored datasets in data/raw/
--Docker container ensures reproducible data fetching environment
+- Fetched two datasets dynamically from GitHub URLs:
+  - day.csv
+  - hour.csv
+- Stored datasets in `data/raw/`
+- Docker container ensures reproducible data fetching environment
 
 **Deliverables:**
 - Dockerfile + requirements.txt

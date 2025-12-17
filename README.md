@@ -1,4 +1,4 @@
-# Big Data Project Template
+# Big Data Project 
 
 ## Project Overview
 Build a Big Data project using Python, PySpark and Docker. The workflow includes:
